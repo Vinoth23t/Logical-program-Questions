@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Check the leap year">
+    <title>Document</title>
+</head>
+<h1>Check the leap year</h1>
+
+
+<script>
+ let year = prompt('Enter a year:'); 
+
+//three conditions to find out the leap year
+(0 == year % 4) && (0 != year % 100) || (0 == year % 400) ? console.log(year + ' is a leap year') : console.log(year + ' is not a leap year');
+    
+</script>
+</body>
+</html>

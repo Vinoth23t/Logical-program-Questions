@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="check the input whether it will form a triangle">
+    <title>Document</title>
+</head>
+<h1>check the input whether it will form a triangle</h1>
+
+
+<script>
+    let a= +prompt(`Enter the value of a:`);
+    let b= +prompt(`Enter the value of b:`);
+    let c= +prompt(`Enter the value of c:`);
+    
+    //A triangle is valid if sum of its two sides is greater than the third side. 
+    //If three sides are a, b and c, then three conditions should be met. 
+ 
+    //1.a + b > c 
+    //2.a + c > b 
+    //3.b + c > a  
+    
+    if( a + b <= c || a + c <= b || b + c <= a ){
+        console.log(`Not forms a Triangle.`);
+    }else{
+        console.log(`The inputs a,b,c forms a triangle.`);
+    }
+</script>
+</body>
+</html>

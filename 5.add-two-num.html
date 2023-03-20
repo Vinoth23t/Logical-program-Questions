@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Add two number and check whether the sum of two num is odd or even">
+    <title>Document</title>
+</head>
+<h1>Add two number and check whether the sum of two num is odd or even</h1>
+
+
+<script>
+let num1 = +prompt('Enter the first number ');
+let num2 = +prompt('Enter the second number ');
+
+//add two numbers
+let sum = num1+num2;
+
+// display the sum
+console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+//check if the result is even
+if(sum % 2 == 0) {
+    console.log("The number is even.");
+}
+
+// if the number is odd
+else {
+    console.log("The number is odd.");
+}
+</script>
+</body>
+</html>
